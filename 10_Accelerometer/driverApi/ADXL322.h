@@ -21,7 +21,7 @@ int                     k;
 int                     dataTimeout;
 int                     sampleCounter;
 int                     sampleCounter2;
-volatile float          ADCresults[2];          // ADC results
+int32_t                 ADCresults[2];          // ADC results
 bool                    dataReadyFlag;
 
 typedef enum {
